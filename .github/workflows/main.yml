@@ -21,7 +21,7 @@ jobs:
       run: msbuild HDT-Reconnector.sln /p:Configuration=Release
 
     - name: Upload Build Artifacts
-      uses: actions/upload-artifact@v3  # 更新為 v3
+      uses: actions/upload-artifact@v4
       with:
         name: build-artifacts
         path: |
